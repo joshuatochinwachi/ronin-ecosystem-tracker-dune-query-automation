@@ -1,8 +1,8 @@
 name: Daily Ronin Dune Query Runner
 on:
   schedule:
-    # Runs at 3:15 PM UTC every day
-    - cron: '15 15 * * *'
+    # Runs at 5:45 AM UTC every day
+    - cron: '45 5 * * *'
   workflow_dispatch:  
 jobs:
   run-query:
